@@ -1,9 +1,10 @@
 import Slide from '@/app/Components/Slide/Slide';
+import { BackgroundColorsEnum } from '@/app/config/enums';
 import React from 'react';
 
 export const Slide5 = () => {
   return (
-    <Slide backgroundColor="aquamarine">
+    <Slide backgroundColor={BackgroundColorsEnum.AQUAMAINE}>
       <small>A developer</small>
       <h3>✅ ✅ Solve problems</h3>
       <aside className="notes">

@@ -1,12 +1,19 @@
 import React from 'react';
-import Slide1 from './Slides/Slide1';
-import Slide2 from './Slides/Slide2';
+
+import CoverSlide from '../../CoverSlide/CoverSlide';
+import Section from '../../Section/Section';
+import { Slide1, Slide2 } from './Slides';
+import QuestionsSlide from '../../QuestionsSlide/QuestionsSlide';
 
 const Class2 = () => {
   return (
     <>
-      <Slide1 />
-      <Slide2 />
+      <Section>
+        <CoverSlide title="Clase 2" subtitle="Algoritmos" />
+        <Slide1 />
+        <Slide2 />
+        <QuestionsSlide />
+      </Section>
     </>
   );
 };
