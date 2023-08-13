@@ -1,5 +1,5 @@
 import dynamic from 'next/dynamic';
-import { Class1, Class2 } from './Components/CourseClasses';
+import { Class1, Class2, Class3, Class4 } from './Components/CourseClasses';
 
 export default function Home() {
   const Presentation = dynamic(() => import('./Components/Presentation'), {
@@ -9,6 +9,8 @@ export default function Home() {
     <Presentation>
       <Class1 />
       <Class2 />
+      <Class3 />
+      <Class4 />
     </Presentation>
   );
 }
